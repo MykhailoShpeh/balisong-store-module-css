@@ -36,10 +36,15 @@
   flex-direction: column;
   gap: 10px;
 
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: all 0.25s ease;
 }
 
 .section {
   width: 100%;
   height: 100%;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  border: rgb(119, 119, 202) 1px solid;
 }
