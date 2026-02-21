@@ -1,3 +1,5 @@
+@import-normalize;
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -28,6 +30,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #1E293B;
 }
 
 h1 {
@@ -66,3 +69,8 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+ul {
+  list-style: none;
+}
+
