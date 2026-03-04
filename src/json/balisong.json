@@ -51,5 +51,33 @@
         "link": "https://squidindustriesknives.co/products/dlc-tsunami",
         "weight": "About 113 g",
         "accessories": "Practice trainer, Repair kit, Pouch, Presentation box, Flipping tutorial"
+    },
+    {
+        "nameOfKnife": "Hydra Trainer",
+        "brand": "NABALIS",
+        "price": "$120 USD",
+        "typeOfKnife": "trainer",
+        "image": "/balisong-store/hydra.webp",
+        "materials": [
+            "7075 Aluminum,",
+            "440C Steel"
+        ],
+        "link": "https://nabalis.com/products/nabalils-hydra-butterfly-knife-balisong-trainer-japenese-tanto-bowie-blade-7075aluminum?variant=45579585159318",
+        "weight": "About 115 g",
+        "accessories": "ghost stand"
+    },
+    {
+        "nameOfKnife": "Moab x Meridian - Purple Rain",
+        "brand": "Glidr",
+        "price": "$135 USD",
+        "typeOfKnife": "trainer",
+        "image": "/balisong-store/glidr-moab.webp",
+        "materials": [
+            "7075 Aluminum,",
+            "Hardened 420 stainless steel"
+        ],
+        "link": "https://glidr.co/collections/moab-x-meridian/products/moab-x-meridian-purple-rain",
+        "weight": "About 114 g",
+        "accessories": "Secondary parts"
     }
 ]

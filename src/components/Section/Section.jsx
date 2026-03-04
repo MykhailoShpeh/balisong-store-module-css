@@ -8,12 +8,12 @@ export function Section({ title, children }) {
             {/* <h2>{title}</h2> */}
             {/* //! Рендер за умовою: */}
             {title && <h2 className={css.title}>{title}</h2>}
-      {children}
-    </section>
-  );
+            {children}
+        </section>
+    );
 }
 
 Section.propTypes = {
-  title: PropTypes.string,
-  children: PropTypes.node,
+    title: PropTypes.string,
+    children: PropTypes.node,
 };

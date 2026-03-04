@@ -1,5 +1,24 @@
 import css from './Balisong.module.css';
 
+//! Ім'я ножа
+import { FiTag } from "react-icons/fi";
+//! Марка
+import { FaTrademark } from "react-icons/fa";
+//! Ціна
+import { BsCurrencyDollar } from "react-icons/bs";
+//! Тип ножа 
+import { GiButterflyKnife } from "react-icons/gi";
+//! Матеріали
+import { FiLayers } from "react-icons/fi";
+//! Вага
+import { FaWeightHanging } from "react-icons/fa";
+//! Аксесуари
+import { FiTool } from "react-icons/fi";
+
+import { iconSize } from '@/constants/iconSize.js'
+
+// import { Card } from './Balisong.styled.jsx'
+
 export function Balisong({
     nameOfKnife,
     brand,
@@ -10,16 +29,15 @@ export function Balisong({
     link,
     weight,
     accessories }) {
-    return <div className={css.card}>
-        <h2>Ім'я: {nameOfKnife}</h2>
-        <p>Бренд: {brand}</p>
-        <p>Ціна: {price}</p>
-        <p>Тип: {typeOfKnife}</p>
+    return<>
+        <h2><FiTag /> Ім'я: {nameOfKnife}</h2>
+        <p><FaTrademark size={iconSize.sm} /> Бренд: {brand}</p>
+        <p><BsCurrencyDollar size={iconSize.sm} /> Ціна: {price}</p>
+        <p><GiButterflyKnife size={iconSize.sm} /> Тип: {typeOfKnife}</p>
         <img src={image} alt={nameOfKnife} />
-        <p>Матеріали: {materials}</p>
-        <a href={link}>Посилання на ніж</a>
-        <p>Вага: {weight}</p>
-        <p>Аксесуари: {accessories}</p>
-    </div>;
-
+        <p><FiLayers size={iconSize.sm} />Матеріали: {materials}</p>
+        <a target='_blank' rel="noopener noreferrer" href={link}>Посилання на ніж</a>
+        <p><FaWeightHanging size={iconSize.sm} />Вага: {weight}</p>
+        <p><FiTool size={iconSize.sm} /> Аксесуари: {accessories}</p>
+    </>
 }
