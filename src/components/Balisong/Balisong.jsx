@@ -17,7 +17,6 @@ import { FiTool } from "react-icons/fi";
 
 import { iconSize } from '@/constants/iconSize.js'
 
-// import { Card } from './Balisong.styled.jsx'
 
 export function Balisong({
     nameOfKnife,
